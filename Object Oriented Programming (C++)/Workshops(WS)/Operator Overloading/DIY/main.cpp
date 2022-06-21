@@ -92,9 +92,6 @@ int main() {
 	cout << ((herolist[4] < herolist[3])? "Green-Lantern is weaker than Aquaman" : "Double check your < operator");
 	cout << endl;
 	cout << "----------------------------------------" << endl << endl;
-
-
-	
 	return 0;
 }
 
