@@ -1,0 +1,121 @@
+
+> web222-assignment-2@6.0.0 test
+> jest --verbose --
+
+PASS src/problem-02.test.js
+  Problem 02 - observationsByPrivacy()
+    √ should throw if privacy is not one of the expected values (13 ms)
+    √ should include the expected objects for a privacy = obscured (4 ms)
+    √ should include the expected objects for a privacy = OBSCURED (1 ms)
+    √ should include the expected objects for a privacy = null (1 ms)
+    √ should return expected Array if data contains strings and null
+
+PASS src/problem-05.test.js
+  Problem 05 - getObservationsByPositionalAccuracy() function
+    √ missing options object returns same Array as original (1 ms)
+    √ empty options object returns same Array as original
+    √ eq value returns an Array of expected results (1 ms)
+    √ eq with unknown value returns an empty Array
+    √ gt value returns an Array of expected results (1 ms)
+    √ gt value larger than largest known returns an empty Array
+    √ lt value returns an Array of expected results (3 ms)
+    √ lt value smaller than smallest known returns an empty Array
+    √ gt and lt values together return an Array of expected results (1 ms)
+    √ gt and lt values too close together return an empty Array
+    √ eq is used over gte/lte if all are present
+
+PASS src/problem-08.test.js
+  extractTimeZones() and extractTimeZones2
+    √ should return a single result (2 ms)
+    √ extractTimeZones should not return duplicates
+    √ extractTimeZones should not deal properly with multiple values without duplicating
+    √ extractTimeZones should work on real data
+    √ should return a single result
+    √ extractTimeZones should not return duplicates (1 ms)
+    √ extractTimeZones should not deal properly with multiple values without duplicating
+    √ extractTimeZones should work on real data
+
+PASS src/problem-03.test.js
+  Problem 03 - transformObservation(), transformObservations(), transformObservations2() functions
+    transformObservation() function
+      √ should return an Object (1 ms)
+      √ should return an Object containing an id property
+      √ should return an Object containing a speciesGuess property
+      √ should return an Object containing an isResearchQuality property (1 ms)
+      √ should return an Object containing a.geoCoords Array property
+      √ geoCoords Array should include two Numbers
+      √ geoCoords Array should be in the form [lng, lat]
+      √ should return an Object containing a user property (1 ms)
+      √ should return an Object containing a photos Array of URLs
+      √ should return an Object containing a photos Array of multiple URLs (1 ms)
+    transformObservations() function
+      √ should return an Array
+      √ should return a new Array
+      √ should return an Array with the same number of elements (1 ms)
+      √ should return an Array of Objects
+      √ should return an Array with Objects containing an id property
+      √ should return an Object containing a speciesGuess property
+      √ should return an Object containing an isResearchQuality property
+      √ should return an Object containing a.geoCoords Array property (1 ms)
+      √ geoCoords Array should include two Numbers
+      √ geoCoords Array should be in the form [lng, lat]
+      √ should return an Object containing a user property
+      √ should return an Object containing a photoUrls Array of URLs (1 ms)
+      √ should return an Object containing a photos Array of multiple URLs (1 ms)
+      √ real-world data should behave the same way as test data (1 ms)
+    transformObservations2() function
+      √ should return an Array
+      √ should return a new Array (1 ms)
+      √ should return an Array with the same number of elements
+      √ should return an Array of Objects (2 ms)
+      √ should return an Array with Objects containing an id property
+      √ should return an Object containing a speciesGuess property (1 ms)
+      √ should return an Object containing an isResearchQuality property
+      √ should return an Object containing a geoCoords Array property
+      √ geoCoords Array should include two Numbers
+      √ geoCoords Array should be in the form [lng, lat]
+      √ should return an Object containing a user property
+      √ should return an Object containing a photos Array of URLs
+      √ should return an Object containing a photos Array of multiple URLs
+      √ real-world data should behave the same way as test data (1 ms)
+
+PASS src/problem-07.test.js
+  Problem 07 - getUserStats() function
+    √ should return an Object with the right properties (2 ms)
+    √ should return an Object with correct count properties
+    √ should return an Object with correct totals (1 ms)
+    √ should return an Object with correct averages
+    √ real-data should produce the expected stats Object (1 ms)
+
+PASS src/problem-01.test.js
+  Problem 01 Part 1 - observationSummary() function with for loop
+    √ observationSummary() should call console.log() once per case (2 ms)
+    √ observationSummary() should log correct format of all cases (2 ms)
+  Problem 01 Part 2 - observationSummary2() function with for loop
+    √ observationSummary2() should call console.log() once per case
+    √ observationSummary2() should log correct format of all cases (1 ms)
+
+PASS src/problem-04.test.js
+  Problem 04 - getObservationsById() function
+    √ if an unknown id is passed, null is returned (1 ms)
+    √ if a single, known id is passed, the full Object should be returned
+    √ if a multiple known ids are passed, an Array of the full Objects should be returned (1 ms)
+    √ if some known and some unknown ids are passed, an Array of the known Objects should be returned
+
+PASS src/problem-06.test.js
+  Problem 06 - getTaxonPhotos() function
+    √ should return an Array of Objects with the right URLs (2 ms)
+    √ should return an empty Array if missing taxon
+    √ real-data should produce the expected result (3 ms)
+    √ URLs should end with the observation ID on the query string (1 ms)
+
+PASS src/problem-00.test.js
+  Problem 00 - getTotalResults() function
+    √ getTotalResults() should return a Number (1 ms)
+    √ getTotalResults() should contain the correct number of items
+
+Test Suites: 9 passed, 9 total
+Tests:       81 passed, 81 total
+Snapshots:   0 total
+Time:        1.216 s
+Ran all test suites.
