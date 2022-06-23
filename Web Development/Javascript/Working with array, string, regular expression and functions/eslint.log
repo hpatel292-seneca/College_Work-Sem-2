@@ -1,0 +1,31 @@
+
+> web222-assignment-1@5.0.0 eslint
+> eslint src/**/*.js
+
+
+C:\Users\26har\Desktop\College\sem - 2\Web222\assisnment\a1\a1\src\new.js
+  2:7  warning  Expected '===' and instead saw '=='  eqeqeq
+
+C:\Users\26har\Desktop\College\sem - 2\Web222\assisnment\a1\a1\src\solutions.js
+  196:40  warning  Expected '===' and instead saw '=='  eqeqeq
+  248:37  warning  Expected '===' and instead saw '=='  eqeqeq
+  249:35  warning  Expected '===' and instead saw '=='  eqeqeq
+  250:19  warning  Expected '!==' and instead saw '!='  eqeqeq
+  251:35  warning  Expected '===' and instead saw '=='  eqeqeq
+  374:24  warning  Expected '!==' and instead saw '!='  eqeqeq
+  377:20  warning  Expected '!==' and instead saw '!='  eqeqeq
+  439:17  warning  Expected '===' and instead saw '=='  eqeqeq
+  441:13  warning  Expected '!==' and instead saw '!='  eqeqeq
+  478:24  warning  Expected '===' and instead saw '=='  eqeqeq
+  482:26  warning  Expected '===' and instead saw '=='  eqeqeq
+  488:42  warning  Expected '===' and instead saw '=='  eqeqeq
+  609:12  warning  Unnecessary 'else' after 'return'    no-else-return
+  643:32  warning  Expected '===' and instead saw '=='  eqeqeq
+  658:32  warning  Expected '===' and instead saw '=='  eqeqeq
+  673:32  warning  Expected '===' and instead saw '=='  eqeqeq
+  753:15  warning  Expected '===' and instead saw '=='  eqeqeq
+  755:22  warning  Expected '===' and instead saw '=='  eqeqeq
+
+✖ 19 problems (0 errors, 19 warnings)
+  0 errors and 1 warning potentially fixable with the `--fix` option.
+

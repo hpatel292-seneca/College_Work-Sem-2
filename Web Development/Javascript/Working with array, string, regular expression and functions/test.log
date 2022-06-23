@@ -1,0 +1,320 @@
+
+> web222-assignment-1@5.0.0 test
+> jest --
+
+jest-haste-map: Haste module naming collision: web222-assignment-1
+  The following files share their name; please adjust your hasteImpl:
+    * <rootDir>\package.json
+    * <rootDir>\submission\package.json
+
+PASS src/problem-09.test.js
+PASS src/problem-05.test.js
+  ● Console
+
+    console.log
+      43.7955, -79.3496
+
+      at log (src/solutions.js:367:11)
+
+    console.log
+      -35.5541
+
+      at log (src/solutions.js:393:11)
+
+    console.log
+      90, -79.3496
+
+      at log (src/solutions.js:367:11)
+
+    console.log
+      10.650400000000005
+
+      at log (src/solutions.js:393:11)
+
+    console.log
+      -90, -79.3496
+
+      at log (src/solutions.js:367:11)
+
+    console.log
+      -169.3496
+
+      at log (src/solutions.js:393:11)
+
+    console.log
+      -90.01, -79.3496
+
+      at log (src/solutions.js:367:11)
+
+    console.log
+      -169.3596
+
+      at log (src/solutions.js:393:11)
+
+    console.log
+      90.01, -79.3496
+
+      at log (src/solutions.js:367:11)
+
+    console.log
+      10.66040000000001
+
+      at log (src/solutions.js:393:11)
+
+    console.log
+      43.7955, 180
+
+      at log (src/solutions.js:367:11)
+
+    console.log
+      223.7955
+
+      at log (src/solutions.js:393:11)
+
+    console.log
+      43.7955, -180
+
+      at log (src/solutions.js:367:11)
+
+    console.log
+      -136.2045
+
+      at log (src/solutions.js:393:11)
+
+    console.log
+      43.7955, -180.00001
+
+      at log (src/solutions.js:367:11)
+
+    console.log
+      -136.20451
+
+      at log (src/solutions.js:393:11)
+
+    console.log
+      43.7955, 180.00001
+
+      at log (src/solutions.js:367:11)
+
+    console.log
+      223.79551
+
+      at log (src/solutions.js:393:11)
+
+    console.log
+      [-79.3496,43.7955]
+
+      at log (src/solutions.js:367:11)
+
+    console.log
+      -35.5541
+
+      at log (src/solutions.js:393:11)
+
+    console.log
+      [-181,43.7955]
+
+      at log (src/solutions.js:367:11)
+
+    console.log
+      -137.2045
+
+      at log (src/solutions.js:393:11)
+
+    console.log
+      [-79.3496,91]
+
+      at log (src/solutions.js:367:11)
+
+    console.log
+      11.650400000000005
+
+      at log (src/solutions.js:393:11)
+
+PASS src/problem-10.test.js
+PASS src/problem-03.test.js
+PASS src/problem-04.test.js
+PASS src/problem-08.test.js
+PASS src/problem-06.test.js
+  ● Console
+
+    console.log
+      43.7955, -79.3496
+
+      at log (src/solutions.js:367:11)
+
+    console.log
+      -35.5541
+
+      at log (src/solutions.js:393:11)
+
+    console.log
+      43.7955, -79.3496
+
+      at log (src/solutions.js:367:11)
+
+    console.log
+      -35.5541
+
+      at log (src/solutions.js:393:11)
+
+    console.log
+      43.7955, -79.3496
+
+      at log (src/solutions.js:367:11)
+
+    console.log
+      -35.5541
+
+      at log (src/solutions.js:393:11)
+
+    console.log
+      43.7955, -79.3496
+
+      at log (src/solutions.js:367:11)
+
+    console.log
+      -35.5541
+
+      at log (src/solutions.js:393:11)
+
+    console.log
+      43.7955, -79.3496
+
+      at log (src/solutions.js:367:11)
+
+    console.log
+      -35.5541
+
+      at log (src/solutions.js:393:11)
+
+    console.log
+      43.7955, -79.3496
+
+      at log (src/solutions.js:367:11)
+
+    console.log
+      -35.5541
+
+      at log (src/solutions.js:393:11)
+
+    console.log
+      43.7955, -79.3496
+
+      at log (src/solutions.js:367:11)
+
+    console.log
+      -35.5541
+
+      at log (src/solutions.js:393:11)
+
+    console.log
+      43.7955, -79.3496
+
+      at log (src/solutions.js:367:11)
+
+    console.log
+      -35.5541
+
+      at log (src/solutions.js:393:11)
+
+    console.log
+      [-79.3496,43.7955]
+
+      at log (src/solutions.js:367:11)
+
+    console.log
+      -35.5541
+
+      at log (src/solutions.js:393:11)
+
+    console.log
+      [-79.3496,43.7955]
+
+      at log (src/solutions.js:367:11)
+
+    console.log
+      -35.5541
+
+      at log (src/solutions.js:393:11)
+
+    console.log
+      43.7955, -79.3496
+
+      at log (src/solutions.js:367:11)
+
+    console.log
+      -35.5541
+
+      at log (src/solutions.js:393:11)
+
+    console.log
+      43.7955, -79.3496
+
+      at log (src/solutions.js:367:11)
+
+    console.log
+      -35.5541
+
+      at log (src/solutions.js:393:11)
+
+    console.log
+      9000, 9000
+
+      at log (src/solutions.js:367:11)
+
+    console.log
+      18000
+
+      at log (src/solutions.js:393:11)
+
+    console.log
+      [-79.3496,43.7955]
+
+      at log (src/solutions.js:367:11)
+
+    console.log
+      -35.5541
+
+      at log (src/solutions.js:393:11)
+
+    console.log
+      [-79.3496,43.7955]
+
+      at log (src/solutions.js:367:11)
+
+    console.log
+      -35.5541
+
+      at log (src/solutions.js:393:11)
+
+    console.log
+      90.01, -79.3496
+
+      at log (src/solutions.js:367:11)
+
+    console.log
+      10.66040000000001
+
+      at log (src/solutions.js:393:11)
+
+    console.log
+      90, -181
+
+      at log (src/solutions.js:367:11)
+
+    console.log
+      -91
+
+      at log (src/solutions.js:393:11)
+
+PASS src/problem-02.test.js
+PASS src/problem-01.test.js
+PASS src/problem-07.test.js
+PASS src/problem-00.test.js
+
+Test Suites: 11 passed, 11 total
+Tests:       108 passed, 108 total
+Snapshots:   0 total
+Time:        1.417 s
+Ran all test suites.
