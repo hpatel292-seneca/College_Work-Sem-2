@@ -1,0 +1,15 @@
+/*
+*****************************************************************************
+						  Workshop - #7
+Full Name: Harshil patel
+Student ID#: 148847213
+Email: hpatel292@myseneca.ca
+Section    : NAA
+
+Authenticity Declaration:
+I declare this submission is the result of my work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entire of my creation.
+*****************************************************************************/
+
+In this workshop, the central concept that I have learned is that of inheritance. So in this workshop, I have made a Memberparliament class and inherited a Minister class from it. So the Minister class has all the public members of the base class. After that, I learned to shadow the function in the derived class. So, in this workshop, the shadowed functions are read and write and I also learned how to call the base class shadowed function in the derived class. I also called read and write of the base class in the read and write of the derived class and some other stuff in it. I have also learned how to use access and alter the private members indirectly using public functions of the base class. Furthermore, I also called the custom constructor of the base class in the constructor of the derived class. Finally, I have utilized the different functions of the ostream class and set them to get the required output. For example, I have used width(), setf(), unsetf() in my program.
