@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>A4 Pets</title>
+        <link rel="stylesheet" href="css/normalize.css" />
+        <link rel="stylesheet" href="css/assignment4-theme.css" />
+        <link rel="stylesheet" href="css/a4-main.css" />
+        <link href="//db.onlinewebfonts.com/c/1e44faec07b8b81f60a3215d76bd0086?family=Irvin" rel="stylesheet" type="text/css"/>
+        <script src="js/data.js"></script>
+        <script src="js/a4-main.js"></script>
+    </head>
+    <body>
+        <header>
+            <div class="center">
+                <h1 class="app-title">
+                    Perfect Pets
+                </h1>
+            </div>
+        </header>
+        <nav>
+            <div class="center">
+                <ul>
+                    <li><a onclick="filterAllPets()">All Pets</a></li>
+                    <li><span>|</span></li>
+                    <li><a onclick="filter_zero_1()">&lt; 1 year</a></li>
+                    <li><a onclick="filter_1_3()">1 - 3 years</a></li>
+                    <li><a onclick="filter_4_plus()">4+ years</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <section class="main center">
+            <table class="main-table-top">
+                <tbody>
+                    <tr>
+                        <th id ="thPhoto">Photo</th>
+                        <th>Description</th>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="main-table-container">
+                <table class="main-table">
+                    <tbody id="main-table-body">
+                    </tbody>
+                </table>
+            </div>
+        </section>
+        <footer>
+            <div class="center">
+                &copy; 2022 Harshil Patel
+            </div>
+        </footer>
+    </body>
+</html>
+
+

@@ -1,0 +1,105 @@
+/********************************************************************************* 
+* 
+* WEB222 – Assignment #4b 
+* 
+* I declare that this assignment is my own work in accordance with Seneca 
+* Academic Policy. No part of this assignment has been copied manually or 
+* electronically from any other source (including web sites) or distributed to 
+* other students. 
+* 
+* Name: _Harshil Patel_ Student ID: _148847213_ Date: _18/07/2022_ 
+* 
+********************************************************************************/
+
+/* Selecting the main-container class and applying the max width and the margin*/
+.main-container{
+    max-width: 960px;
+    margin: 0px auto;
+}
+/* Selecting all the nav which are children of the class main-container and setting its width and make to float on the left*/
+.main-container nav{
+    width: 30%;
+    float: left;
+}
+/* selecting the class main which is the child of the div with class main-container setting the width and floating it to right*/
+.main-container .main{
+    width: 70%;
+    float: right;
+}
+/* Selecting the header which is the child of element with class main-container and applying the padding and setting its background color and border at bottom and margin*/
+.main-container header{
+    padding: 10px;
+    background-color: #eeeeee;
+    border-bottom: 1px solid #cccccc;
+    margin-bottom: 30px;
+}
+/* Selecting the level 1 heading from the header tag which is the child of the element with class main-container and adjusting its width and position. applying the font property and let it float to right*/
+.main-container header h1{
+    width: 69%;
+    font-size: 24px;
+    float: right;
+    text-align: right;
+    margin-top: 10px;
+}
+/* Selecting the footer from the main-container class as parent and floating it to the end, applying the background color border and padding*/
+.main-container footer{
+    float:inline-end;
+    min-width: 100%;
+    padding: 20px 10px;
+    background-color: #eeeeee;
+    border-top: 1px solid #cccccc;
+    font-size: 13px;
+}
+/* Selecting the logo with it's id and setting the width and font properties*/
+#logo{
+    width: 31%;
+    font-size: 25px;
+    font-weight: bold;
+}
+/* selecting the logo caption which is "Canada" and setting it's its position so that it can come on center*/
+#logocap{
+    position: relative;
+    bottom: 16px;
+}
+/* selecting the img in the logo and setting the width and align it vertically*/
+#logo img{
+    width: 94px;
+}
+/* selecting the underorder list inside the nav and removing the list style*/
+nav ul{
+    list-style-type: none;
+}
+/* selecting all anchor elements which is the child of the nav tag and adding the padding and make the links to look normal*/
+nav ul a{
+    display: block;
+    text-decoration: none;
+    padding: 5px;
+}
+/* selecting the class province which is the direct child of div and setting it width and layout its position add adding the margin*/
+div.province{
+    width: 30%;
+    float: left;
+    margin: 8px;
+    height: 310px;
+}
+/* targeting the class description which is the child of class province and defining its maximum height and make to scroll when overflow and adding the margin on top and bottom*/
+div .province .description{
+    max-height: 165px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+/* selecting the anchor tags which is the child of the class province and making its display block and align it to center and adding the text color and background color to it*/
+div.province a{
+    display: block;
+    text-align: center;
+    background-color: #555555;
+    color: #eeeeee;
+    padding: 5px;
+    text-decoration: none;
+}
+/*setting the width to 100% for all element who has class flag and is the child of the img tag*/
+img.flag{
+    width: 100%;
+}
