@@ -1,0 +1,9 @@
+#main-middle{
+    line-height: 2em;
+    font-family: Ibarra Real Nova, sans-serif;
+}
+main{
+    grid-template-columns: 2fr 4fr 1fr;
+    padding: 10px;
+}
+
