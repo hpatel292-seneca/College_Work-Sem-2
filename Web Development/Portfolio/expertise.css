@@ -1,0 +1,251 @@
+*{
+    box-sizing: border-box;
+}
+html::before
+{
+    content: "";
+    background: url(./img/bg.jpg) repeat center center/cover;
+    z-index: -1;
+    position:fixed;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    opacity: 0.3;
+}
+body{
+    width: 90vw;
+    margin: 0px auto;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    align-items: center;
+    list-style: none;
+}
+.ham-items a {
+    box-shadow: inset 0 0 0 0 #54b3d6;
+    color: #c63636;
+    margin: 0 -.25rem;
+    padding: 0 .25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+  }
+.ham-items a:hover {
+    box-shadow: inset 100px 0 0 0 #54b3d6;
+    color: white;
+}
+.ham-items a:active{
+    color: #c63636;
+}
+nav ul li{
+    font-size: 1.5em;
+}
+
+footer{
+    width: 100%;
+    background-color: #0000002e;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+}
+nav ul li:hover,
+.icon:hover{
+    color: red;
+    text-shadow: 0px 0px 2px red , 0px 0px 4px red;
+    transition-duration: 1s;
+}
+nav a{
+    text-decoration: none;
+    color: #c63636;
+    
+}
+.color{
+    color: #c63636;;
+}
+nav{
+    /* background-color: rgba(0, 0, 0, 0.877); */
+    height: 50px;
+    /* background-color: rgba(0, 0, 0, 0.2); */
+    /* position: fixed; */
+}
+
+/* For card*/
+.cards {
+    padding:0px 60px 60px 60px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    grid-gap: 40px;
+}
+
+.card {
+    display: grid;
+    grid-template-rows: max-content 200px 1fr;
+    border: 2px solid gray;
+    background-color: rgba(0, 0, 0, 0.199);
+    font-size: 1.3em;
+}
+
+.card img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+#title{
+    font-size: 1.5em;
+    text-align: center;
+    padding-top: 60px;
+}
+
+
+
+#pages{
+    display: flex;
+    justify-content: center;
+}
+#page1{
+    margin: 5px;
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    width: 15px;
+}
+#page2{
+    margin: 5px;
+    background-color: #000000;
+    color: white;
+    width: 15px;
+    text-align: center;
+}
+#menu-bar{
+    display: none;
+}
+#ham{
+    display: none;
+}
+
+#menu-icon a,
+#menu-icon h2, 
+#menu-icon img,
+#menu-icon{
+    display: none;
+}
+span#menu-icon{
+    display: none;
+}
+#menu-icon{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items:center;
+    
+}
+#title{
+    margin: 0px;
+    font-size: 1.7em;
+}
+
+#menu-icon img{
+    padding: 10px;
+    width: 58px;
+    height: 58px;
+    border-radius: 50px;
+}
+#honest{
+    font-size: 1.5em;
+}
+#honest h3{
+    color: #c63636;
+    text-align: center;
+}
+@media only screen and (max-width: 650px){
+    *{
+        height: fit-content;
+    }
+    nav a{
+        text-decoration: none;
+        color: #ffffff;   
+    }
+    .ham-items a {
+        color: #ffffff;
+    }
+    nav{
+        height: fit-content;
+    }
+    nav ul{
+        height: fit-content;
+    }
+    body{
+        margin: 0px;
+        width: 100%;
+    }
+    #ham{
+        display: block;
+        text-align: left;
+        width: 100%;
+        padding: 10px;
+    }
+    #menu-bar{
+        display: block;
+    }
+    span#menu-icon{
+        display: flex;
+        justify-content: space-between;
+    }
+    nav ul{
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+        margin: 0px;
+        justify-content: center;
+        align-items: center;
+        background-color: #00000018;
+    }
+    .ham-items{
+        width: 100%;
+        background-color: black;
+        color: white;
+        text-align: center;
+    }
+    .under{
+        border-bottom: 3px solid gray;
+    }
+    #ham-main{
+        display: none;
+    }
+    #menu-icon a,#menu-icon h2, #menu-icon img{
+        display: block;
+    }
+    #menu-icon{
+        background-color:#00000018;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #title{
+        padding-top: 0px;
+    }
+}
+@media only screen and (max-width: 450px){
+    footer{
+        font-size: 1em;
+    }
+    main{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 380px){
+    .card img{
+        width: 95%;
+    }
+}
+@media only screen and (min-width: 651px){
+    nav ul{
+        display: flex;
+    }
+}

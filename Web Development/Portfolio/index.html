@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="./main.css">
+    <script src="https://kit.fontawesome.com/67a561868f.js" crossorigin="anonymous"></script>
+    <script src="./main.js"></script>
+    <script>
+        window.onload = setTimeout(typeWriter1, 1000);
+        let form = document.querySelector('#main');
+        let menu = document.querySelector('#menu-bar');
+        menu.onclick = menu_bar;
+        // form.onsubmit = validate;
+    </script>
+
+    <!-- link for google fonts -->
+    
+</head>
+<body>
+    <header>
+        <nav>
+            <span id="menu-icon">
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                  </a>
+                <h2 class="color" id="title">Portfolio</h2>
+                <img src="./img/profile2.jpg" alt="" width="30px">  
+            </span>
+            <ul id="ham-main">
+                <li id="ham-items1" class="ham-items under"><a href="./index.html">Home</a></li>
+                <li id="ham-items2" class="ham-items under"><a href="./skill.html">Skills</a></li>
+                <li id="ham-items3" class="ham-items"><a href="./expertise.html">Expertise</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="main-container">
+        <main>
+            <div id="section-1">
+                <aside id="section-2">
+                    <h2 class="color heading">Content</h2>
+                    <ul>
+                        <li><a href="#section-1" class="color">Introduction</a></li>
+                        <li><a href="#about" class="color">About</a></li>
+                        <li><a href="#projects" class="color">Projects</a>
+                        <ul>
+                            <li><a href="#prj1" class="color">Validation From</a></li>
+                            <li><a href="#prj2" class="color">Library Management System</a></li>
+                            <li><a href="#prj3" class="color">Hospital Management System</a></li>
+                            <li><a href="#prj4" class="color">Dog API Appication</a></li>
+                        </ul>
+                        </li>
+                        <li><a href="#form" class="color">Contact Me</a></li>
+        
+        
+                    </ul>
+                </aside>
+            <div class="intro">
+                    <div class="icons">
+                        <div class="icon"><a href="https://www.linkedin.com/in/harshil-patel-997b88219/"><i class="fa-brands fa-linkedin"></i></a></div>
+                        <div class="icon"><a href="https://github.com/hpatel292-seneca"><i class="fa-brands fa-github"></i></a></div>
+                    </div>
+                    <section id="name">
+                        <p id="typing-effect"><span id="first-part-of-name"></span> <br></p>
+                    </section>
+                    <section id="info_summary">
+                        <p>
+                            I am a passionate <span class="bold">DESIGNER</span> and <br>
+                            <span class="bold">DEVELOPER</span> that loves to apply <span class="bold">LOGIC</span><br>
+                            to the program.
+                        </p>
+                        </section>
+                </div>
+
+                
+            </div>
+            <div id="about" class="main-section">
+                <h1 class="color heading">ABOUT</h1>
+                <div id="about-content">
+                    <img src="./img/profile1.jpg" alt="Profile Picture" width="300px">
+                    <div id="about-text">
+                        <p class="color" id="about-ques">Who Am I?</p>
+                        <p>Hi, I'm Harshil Patel. I am passionate designer and developer based out of Toronto, Ontario. I love creating Software Application which is securely coded using Object Oriented Programming. Furthermore, I also love to create attractive web pages which are responsive, accessible and at their best to provide User Interface. </p>
+                        <p>Apart from this, I love to play cricket and exploring new places are my hobbies. I offer a friendly, kind, creative personality who are always ready learn new thing and improve</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="Projects" class="main-section">
+                <h1 class="heading color">PROJECTS</h1>
+                <div id="prj-Content">
+                    <section class="prj" id="prj1">
+                        <div class="prj-img-div">
+                            <img class="prj-img" id="aaa" src="./projects/1/final.jpeg" alt="img" width="500px">
+                        </div>
+                        <div id="content-prj1" class="prj-content backColor">
+                            <h1 class="color">Form Validation</h1>
+                            <p>
+                                This a form which validate data using both HTMl and JS and provide errors if it is not proper. It is also responsive, it work in all mobile phone as well as big screen devices. 
+                            </p>
+                            <p>
+                                <span class="color">Technique Used:-</span>-HTML5  *  CSS3  *  Javascript (ES6)  *  DOM  *  Git  *  Github  *  Github Pages
+                            </p>
+                        </div>
+                    </section>
+
+
+                    <section class="prj" id="prj2">
+                        <div class="prj-img-div">
+                            <img class="prj-img" src="./projects/2/final.jpeg" alt="img" width="500px">
+                        </div>
+                        <div id="content-prj2" class="prj-content backColor">
+                            <h1 class="color">Library Management Application</h1>
+                            <p>
+                                This is a Clone of an Library system which allow <span class="color">Adding Publication</span>, <span class="color">Removing Publication</span>, <span class="color">CheckOut Publication</span>, <span class="color">Return Publication</span>. It also calculate and charge the charge if someone delay the return. It is implemented Using Object Oriented Technique of coding and it is compatible working with files 
+                            </p>
+                            <p>
+                                <span class="color">Technique Used:-</span>- C++  *  Object Orient Programing  *  Flat File Database  *  Integration  *   Git * Github
+                            </p>
+                        </div>
+                    </section>
+
+                    <section class="prj" id="prj3">
+                        <div class="prj-img-div">
+                            <img class="prj-img" id="aaa" src="./projects/3/final.jpeg" alt="img" width="500px">
+                        </div>
+                        <div id="content-prj3" class="prj-content backColor">
+                            <h1 class="color">Veterinary Clinic System</h1>
+                            <p>
+                                Made a mimic of Veterinary management system that take care of patients data and allow to change it accordingly. It also able to work with the appointment part like giving appointment's and cancelling the appointments.
+                            </p>
+                            <p>
+                                <span class="color">Technique Used:-</span>-C programming  *  procedures programming  *  File Based database  *  Integration  *  Git  *  Github
+                            </p>
+                        </div>
+                    </section>
+
+                    <section class="prj" id="prj4">
+                        <div class="prj-img-div">
+                            <img class="prj-img" id="aaa" src="./projects/4/final.jpeg" alt="img" width="500px" height="281.117px">
+                        </div>
+                        <div id="content-prj4" class="prj-content backColor">
+                            <h1 class="color">API Based Application</h1>
+                            <p>
+                                This is an application which is using an dog api and retrive first bread name using 1st api and display it in the Menu section and then based on selected breed it also using different api to retrive images of that breed and display it.
+                            </p>
+                            <p>
+                                <span class="color">Technique Used:-</span>-HTML5  *  CSS3  *  JAVASCRIPT (ES6)  *  BootStrap  *  JSON  *  AJAX  *  DOM  *  git  *  github  * github pages
+                            </p>
+                        </div>
+                    </section>
+
+
+                </div>
+            </div>
+
+            <div id="form" class="main-section">
+                <h1 class="color heading">FORM</h1>
+                <div id="form-content">
+
+                    <div id="form-container">
+                        <h2 class="color">Reach Out!</h2>
+                        <p>I am always open to discussing new opportunities or even to just have a chat.</p>
+
+                           <p> Feel free to leave me a message using the form, email me directly, or even call me using the information below.
+                        </p>
+                            
+                           <p>Thanks for stopping by!</p>
+                           <div id="contact">
+                           <p class="contact" id="contact-1"><a href = "mailto: hpatel292@myseneca.ca"><i class="contact-icon fa-solid fa-envelope"></i> hpatel292@myseneca.ca</a></p>
+                           <p class="contact" id="contact-2"><a href="tel:+6478623246"><i class="contact-icon fa-solid fa-phone"></i> (647)-862-3246</a></p>
+
+                        </div>
+                    </div>
+                    <!-- onsubmit='return validation();' -->
+                    <div>
+                    <form id="Main" action="https://httpbin.org/post" method="post" name="signup" onsubmit="return validation();">
+                        <!-- FUll Name -->
+                        <div class="form-req-fields">
+                            <span class="required">*</span>
+                            <input type="text" id="fullname" required tabindex="1" name="fname" autocomplete="name" placeholder="Enter Your Full Name">
+                        </div>
+                        
+                        <div>    
+                            <!-- Email -->
+                            <span class="required">*</span>
+                            <input type="email" id="email" tabindex="2" autocomplete="email" name="email" required placeholder="Enter Your Email Address">
+                        </div>    
+
+                        <div>
+                            <!-- Message -->
+                            <span class="required">*</span>
+                            <textarea name="message" id="message" rows="6" placeholder="Message" tabindex="3"></textarea>
+                        </div>
+                        <!-- Phone -->
+                        <input type="tel" id="tel" autocomplete="tel" tabindex="4" name="tel" placeholder="Phone Number: (###) ###-####" onchange="validateTel()">
+
+                        <!-- Company Name -->
+                        <input type="text" id="Company" tabindex="5" name="Company" autocomplete="organization" placeholder="Organization Name">
+
+                        <!-- Job Title -->
+                        <input type="text" id="Occupancy" tabindex="6" name="Occupancy" autocomplete="organization-title" placeholder="Job Title">
+
+                        <!-- Address -->
+                        <input type="text" id="city" tabindex="7" autocomplete="address-level2" name="city" placeholder="City">
+                        <input type="text" id="province" name="province" tabindex="8" autocomplete="address-level1" placeholder="Province">
+
+                        <div id="button">
+                        <button type="submit" id="submit" tabindex="7">Register</button>
+                        <button type="reset" id="reset" tabindex="7">Refill</button>
+                    
+                    </form>
+                </div>
+                    
+                </div>
+            </div>
+            </div>
+
+
+            <div id="prof" class="main-section">
+                <h1 class="color heading">My Favorite Professor At Seneca</h1>
+                <div id="prof-main">
+                    <div id="video">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/bE_FUT0MUkQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><!-- onsubmit='return validation();' -->
+                    </div>
+                    <div id="prof-container">
+                        <h2 class="color" id="prof-title">Fardad Soleimanloo</h2>
+                        <p>This professor is the one i admire alot and i learned much new things with him</p>
+
+                           <p> Learning coding is a difficult task and while in the process, I got so many doubt and he was the one who always come with an reason why this thing happening and he is the best.
+                         </p>
+                        </div>
+                    
+                    </div>
+                    </div>
+                    
+                </div>
+                    
+                </div>
+            </div>
+            </div>
+        </main>
+        
+        <footer class="main-container">
+            &#9400; 2022 Harshil Patel. All Rights Reserved
+        </footer>
+        
+    </section>
+</body>
+</html>
