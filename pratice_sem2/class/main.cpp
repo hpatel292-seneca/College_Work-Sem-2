@@ -2,9 +2,8 @@
 #include"Student.h"
 using namespace std;
 
-int main(){
-    float grades[] = {12.45, 32, 34.6, 67};
-    Student s1;
-    s1.set(-1, grades, 4);
-    s1.display();
-}
+int main () {
+     float gh[] = {89.4f, 67.8f, 45.5f};
+     Student harry(1234, gh, 3);
+     harry.display();
+ }
